@@ -18,8 +18,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-// import ButtonExample from './src/components/buttonExample';
 import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
+import ButtonExample from './src/components/ButtonExample';
 
 export default class App extends Component {
   render(){
@@ -31,8 +31,8 @@ export default class App extends Component {
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
 
-            <ActivityIndicatorExample/>
-            {/* <ButtonExample /> */}
+            {/* <ActivityIndicatorExample/> */}
+            <ButtonExample/>
 
           </ScrollView>
         </SafeAreaView>
