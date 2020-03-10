@@ -20,24 +20,31 @@ import {
 
 import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
 import ButtonExample from './src/components/ButtonExample';
-import ImageExample from './src/components/Image';
+import ImageExample from './src/components/ImageExample';
+import ModalExample from './src/components/ModalExample';
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <StatusBar barStyle="dark-content" />
+        {/* <StatusBar barStyle="dark-content" />
         <SafeAreaView>
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
 
-            {/* <ActivityIndicatorExample/> */}
-            {/* <ButtonExample/> */}
-            <ImageExample/>
+            <ActivityIndicatorExample/> 
+             <ButtonExample/>
+             <ImageExample/>
+            <ModalExample/>
 
           </ScrollView>
-        </SafeAreaView>
+        </SafeAreaView> */}
+
+        {/* <ActivityIndicatorExample />
+        <ButtonExample />
+        <ImageExample /> */}
+        <ModalExample />
       </>
     );
   }
