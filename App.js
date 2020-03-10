@@ -20,9 +20,10 @@ import {
 
 import ActivityIndicatorExample from './src/components/ActivityIndicatorExample';
 import ButtonExample from './src/components/ButtonExample';
+import ImageExample from './src/components/Image';
 
 export default class App extends Component {
-  render(){
+  render() {
     return (
       <>
         <StatusBar barStyle="dark-content" />
@@ -32,7 +33,8 @@ export default class App extends Component {
             style={styles.scrollView}>
 
             {/* <ActivityIndicatorExample/> */}
-            <ButtonExample/>
+            {/* <ButtonExample/> */}
+            <ImageExample/>
 
           </ScrollView>
         </SafeAreaView>
