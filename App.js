@@ -22,6 +22,7 @@ import ActivityIndicatorExample from './src/components/ActivityIndicatorExample'
 import ButtonExample from './src/components/ButtonExample';
 import ImageExample from './src/components/ImageExample';
 import ModalExample from './src/components/ModalExample';
+import PickerExample from './src/components/PickerExample';
 
 export default class App extends Component {
   render() {
@@ -44,7 +45,8 @@ export default class App extends Component {
         {/* <ActivityIndicatorExample />
         <ButtonExample />
         <ImageExample /> */}
-        <ModalExample />
+        {/* <ModalExample /> */}
+        <PickerExample/>
       </>
     );
   }
