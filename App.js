@@ -23,6 +23,7 @@ import ButtonExample from './src/components/ButtonExample';
 import ImageExample from './src/components/ImageExample';
 import ModalExample from './src/components/ModalExample';
 import PickerExample from './src/components/PickerExample';
+import ProgressBarAndroidExample from './src/components/ProgressBarAndroidExample';
 
 export default class App extends Component {
   render() {
@@ -46,7 +47,8 @@ export default class App extends Component {
         <ButtonExample />
         <ImageExample /> */}
         {/* <ModalExample /> */}
-        <PickerExample/>
+        {/* <PickerExample/> */}
+        <ProgressBarAndroidExample/>
       </>
     );
   }
