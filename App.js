@@ -26,6 +26,7 @@ import PickerExample from './src/components/PickerExample';
 import ProgressBarAndroidExample from './src/components/ProgressBarAndroidExample';
 import RefreshControlExample from './src/components/RefreshControlExample';
 import ScrollViewExample from './src/components/ScrollViewExample';
+import SectionListExample from './src/components/SectionListExample';
 
 export default class App extends Component {
   render() {
@@ -52,7 +53,9 @@ export default class App extends Component {
         {/* <PickerExample/> */}
         {/* <ProgressBarAndroidExample/> */}
         {/* <RefreshControlExample/> */}
-        <ScrollViewExample/>
+        {/* <ScrollViewExample/> */}
+
+        {/* <SectionListExample/> */}
       </>
     );
   }
