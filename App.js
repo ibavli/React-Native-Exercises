@@ -27,6 +27,7 @@ import ProgressBarAndroidExample from './src/components/ProgressBarAndroidExampl
 import RefreshControlExample from './src/components/RefreshControlExample';
 import ScrollViewExample from './src/components/ScrollViewExample';
 import SectionListExample from './src/components/SectionListExample';
+import SwitchExample from './src/components/SwitchExample';
 
 export default class App extends Component {
   render() {
@@ -54,8 +55,8 @@ export default class App extends Component {
         {/* <ProgressBarAndroidExample/> */}
         {/* <RefreshControlExample/> */}
         {/* <ScrollViewExample/> */}
-
         {/* <SectionListExample/> */}
+        <SwitchExample/>
       </>
     );
   }
