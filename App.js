@@ -34,6 +34,8 @@ import TextExample3 from './src/components/TextExamples/TextExample3';
 import TextInputExample from './src/components/TextInputExample';
 import TouchableHighlightExample from './src/components/TouchableHighlightExample';
 import PropsExample from './src/components/PropsExample/PropsExample';
+import FlexExample1 from './src/components/FlexExamples/FlexExample1';
+import FlexExample2 from './src/components/FlexExamples/FlexExample2';
 
 export default class App extends Component {
   render() {
@@ -68,8 +70,10 @@ export default class App extends Component {
         {/* <TextExample3/> */}
         {/* <TextInputExample/> */}
         {/* <TouchableHighlightExample/> */}
-
         {/* <PropsExample/> */}
+        {/* <FlexExample1/> */}
+        <FlexExample2/>
+
       </>
     );
   }
