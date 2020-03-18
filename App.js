@@ -33,6 +33,7 @@ import TextExample2 from './src/components/TextExamples/TextExample2';
 import TextExample3 from './src/components/TextExamples/TextExample3';
 import TextInputExample from './src/components/TextInputExample';
 import TouchableHighlightExample from './src/components/TouchableHighlightExample';
+import PropsExample from './src/components/PropsExample/PropsExample';
 
 export default class App extends Component {
   render() {
@@ -66,7 +67,9 @@ export default class App extends Component {
         {/* <TextExample2/> */}
         {/* <TextExample3/> */}
         {/* <TextInputExample/> */}
-        <TouchableHighlightExample/>
+        {/* <TouchableHighlightExample/> */}
+
+        {/* <PropsExample/> */}
       </>
     );
   }
