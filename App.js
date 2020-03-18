@@ -36,6 +36,7 @@ import TouchableHighlightExample from './src/components/TouchableHighlightExampl
 import PropsExample from './src/components/PropsExample/PropsExample';
 import FlexExample1 from './src/components/FlexExamples/FlexExample1';
 import FlexExample2 from './src/components/FlexExamples/FlexExample2';
+import ListAndHttpExample from './src/components/ListAndHttpExample';
 
 export default class App extends Component {
   render() {
@@ -72,8 +73,8 @@ export default class App extends Component {
         {/* <TouchableHighlightExample/> */}
         {/* <PropsExample/> */}
         {/* <FlexExample1/> */}
-        <FlexExample2/>
-
+        {/* <FlexExample2/> */}
+        <ListAndHttpExample/>
       </>
     );
   }
