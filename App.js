@@ -28,6 +28,10 @@ import RefreshControlExample from './src/components/RefreshControlExample';
 import ScrollViewExample from './src/components/ScrollViewExample';
 import SectionListExample from './src/components/SectionListExample';
 import SwitchExample from './src/components/SwitchExample';
+import TextExample from './src/components/TextExamples/TextExample';
+import TextExample2 from './src/components/TextExamples/TextExample2';
+import TextExample3 from './src/components/TextExamples/TextExample3';
+import TextInputExample from './src/components/TextInputExample';
 
 export default class App extends Component {
   render() {
@@ -56,7 +60,11 @@ export default class App extends Component {
         {/* <RefreshControlExample/> */}
         {/* <ScrollViewExample/> */}
         {/* <SectionListExample/> */}
-        <SwitchExample/>
+        {/* <SwitchExample/> */}
+        {/* <TextExample/> */}
+        {/* <TextExample2/> */}
+        {/* <TextExample3/> */}
+        {/* <TextInputExample/> */}
       </>
     );
   }
