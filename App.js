@@ -39,6 +39,7 @@ import FlexExample2 from './src/components/FlexExamples/FlexExample2';
 import ListAndHttpExample from './src/components/ListAndHttpExample';
 import FlexExample3 from './src/components/FlexExamples/FlexExample3';
 import FlexExample4 from './src/components/FlexExamples/FlexExample4';
+import UserTextExample from './src/components/UserTextExample';
 
 export default class App extends Component {
   render() {
@@ -78,8 +79,8 @@ export default class App extends Component {
         {/* <FlexExample2/> */}
         {/* <ListAndHttpExample/> */}
         {/* <FlexExample3/> */}
-        <FlexExample4/>
-
+        {/* <FlexExample4/> */}
+        <UserTextExample/>
       </>
     );
   }
