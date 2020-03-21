@@ -37,6 +37,8 @@ import PropsExample from './src/components/PropsExample/PropsExample';
 import FlexExample1 from './src/components/FlexExamples/FlexExample1';
 import FlexExample2 from './src/components/FlexExamples/FlexExample2';
 import ListAndHttpExample from './src/components/ListAndHttpExample';
+import FlexExample3 from './src/components/FlexExamples/FlexExample3';
+import FlexExample4 from './src/components/FlexExamples/FlexExample4';
 
 export default class App extends Component {
   render() {
@@ -74,7 +76,10 @@ export default class App extends Component {
         {/* <PropsExample/> */}
         {/* <FlexExample1/> */}
         {/* <FlexExample2/> */}
-        <ListAndHttpExample/>
+        {/* <ListAndHttpExample/> */}
+        {/* <FlexExample3/> */}
+        <FlexExample4/>
+
       </>
     );
   }
